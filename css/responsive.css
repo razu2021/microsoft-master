@@ -1,0 +1,75 @@
+
+/*===== contact page responsive =======*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+   
+ 
+
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+.main-menu{
+      display: none;
+}
+#mobile-bars{
+display: initial;
+}
+.right-menu2{
+  display: none;
+}
+.slider-text {
+  width: 100%;
+  top: 0%;
+  left: 0;
+  right: 0;
+  transition: 0.5s all;
+  background: rgba(157, 226, 243, 0.35);
+  text-align: center;
+  border: 1px solid #000;
+  padding: 60px 5px;
+}
+.slider-text h4 {
+ display: none;
+}
+.slider-text h1 {
+  color: #000;
+  font-size: 20px;
+  margin: 0px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  font-weight: 500px;
+  font-weight: 500;
+  padding: 23px 0px;
+}
+.slider-text p {
+  color: #000;
+  font-size: 15px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  text-align: justify;
+  line-height: 21.5px;
+  margin: 0px;
+  padding: 10px 0px;
+  padding-bottom: 10px;
+  padding-bottom: 16px;
+}
+/* end  */
+  } 
+ 
+  /* large divice end here  */
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+  }

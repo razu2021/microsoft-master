@@ -1,0 +1,51 @@
+*{
+   margin: 0px ;
+   padding: 0px ;
+   outline: 0px ;
+}
+body{
+    background: #f1f1f1;
+}
+ul,li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* ==================== */
+.mega{
+    background: #000;
+}
+.mega-menu ul li{
+    display: block;
+}
+.mega-menu ul li a{
+    font-size: 19px;
+    float:left;
+    padding: 10px 30px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

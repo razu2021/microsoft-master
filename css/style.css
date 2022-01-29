@@ -1,0 +1,1612 @@
+#mfonts {
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
+    Helvetica Neue, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+.section-padding {
+  margin-top: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.clr{
+  clear: both;
+}
+/*================= main css area start ====================*/
+/*================= main css area start ====================*/
+/*================= main css area start ====================*/
+
+.header {
+  /*
+    height: 60px;
+    width: 100%;
+*/
+  background: #fff;
+}
+.main-menu {
+  float: left;
+}
+.main-menu ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.main-menu ul li {
+  float: left;
+}
+.main-menu ul li a{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 14px;
+  float: left;
+  color: #000;
+  font-family: Segoe UI;
+  padding: 19px 15px ;
+  margin: 0px;
+}
+.main-menu ul li a:hover{
+border-bottom: 2px solid rgb(2, 1, 1);
+padding-bottom: 0px ;
+display: inline-block;
+}
+.main-menu ul li:first-child a{
+border-bottom: none;
+}
+.main-menu ul li a img{
+  height: 25px;
+  width: 110px;
+  vertical-align: middle;
+  padding-left: 0px;
+  margin-top: -8px;
+  margin-right: 15px;
+}
+/*  right menu area start here  */
+.right-menu2{
+  background: red;
+}
+.right-menu2 ul{
+  float: right;
+}
+.right-menu2 ul li{
+  float: left;
+}
+.right-menu2 ul li a{
+  color: #000;
+  font-size: 14px;
+  margin: 0px;
+  display: block;
+  padding: 18px 15px ;
+}
+/* ===== main menu css area end ===*/
+#mobile-bars{
+  display: none;
+  background: #000;
+}
+
+#icon{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: block;
+}
+.bar-icon{
+
+}
+.mibile-logo{
+  vertical-align: middle;
+  height: auto;
+  width: 150px;
+  padding: 15px 0px;
+  margin-right: 50px;
+}
+.mobile-icon{
+  float: right;
+}
+.mobile-icon a{
+  font-size: 16px;
+  color: #000;
+  margin: 0px;
+  padding: 5px 8px ;
+  line-height: 50px;
+  display: initial;
+}
+/* ==== mobile bars css end here ==== */
+/* mobille menu css satrt hear== */
+
+.mobile-menu{
+  background: rgb(44, 63, 99) !important;
+  display: none;
+}
+.mobile-menu ul{
+  text-align: center;
+}
+.mobile-menu ul li{
+  display: block;
+  padding: 8px 0px;
+}
+.mobile-menu ul li a{
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.mobile-menu ul li:hover a{
+  color: #000;
+}
+.mobile-menu ul li:hover{
+  color: #000;
+}
+/* mobile menu end  */
+
+.banner {
+  background: #f2f2f2;
+  height: 400px;
+  width: 100%;
+}
+.main-slider {
+  position: relative;
+  background: #f2f2f2;
+  height: 400px;
+  width: 100%;
+}
+.slider-item {
+  height: 400px;
+  width: 100% !important;
+  position: relative;
+  z-index: 9;
+  margin-top: 50px;
+}
+.slider-item img {
+  height: 300px;
+  max-width: 400px;
+  float: right;
+  margin-right: 50px;
+  top: 50px;
+}
+.slider-text {
+  position: absolute !important;
+  width: 400px;
+  top: 0%;
+  left: 8%;
+  z-index: 9;
+  transition: 0.5s all;
+}
+.slider-text h4 {
+  color: #000;
+  margin: 0px;
+  font-size: 15px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  display: inline-block;
+  background: yellow;
+  padding: 3px;
+  transition: 0.5s all;
+}
+.slider-text h1 {
+  color: #000;
+  font-size: 20px;
+  margin: 0px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  font-weight: 500px;
+  font-weight: 500;
+  padding: 3px 0px;
+}
+.slider-text p {
+  color: #000;
+  font-size: 15px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  text-align: justify;
+  line-height: 21.5px;
+  margin: 0px;
+  padding: 10px 0px;
+  padding-bottom: 10px;
+  padding-bottom: 16px;
+}
+.slider-text button {
+  border: none;
+  padding: 8px 20px;
+  background: #000;
+  display: inline-block;
+}
+.slider-text button a {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Segoe UI;
+}
+.slider-text a {
+  color: #000;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Segoe UI;
+
+  margin: 0px;
+}
+
+.slider-text a:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 0px;
+}
+
+#slider {
+  position: relative;
+}
+
+#slider .main-slider .owl-dots {
+  position: absolute;
+  top: 90%;
+  right: 45%;
+  transform: translate(-50%, -50%);
+}
+
+/*==========================================  header area css end ======*/
+.ms-icon-area {
+  padding: 50px 0px;
+}
+
+.ms-icon {
+  text-align: center;
+  padding: 10px;
+
+  min-height: 150px;
+}
+
+.ms-icon:hover {
+  border: 2px solid #000;
+  background: #e0dbdb;
+}
+
+.ms-icon a span {
+  font-size: 40px;
+  display: block;
+}
+
+.ms-icon a {
+  display: block;
+  color: #000;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: Segoe UI;
+  margin: 0px;
+}
+
+.ms-icon a:hover {
+  color: #333bf4;
+}
+
+/*=================  end ==========*/
+
+.product-con-area {
+  /*    background: red;*/
+  min-height: 420px;
+}
+.product-image {
+  background: #f2f2f2;
+  position: relative;
+  max-height: 140px;
+  width: 100%;
+}
+.product-image img {
+  position: relative;
+  width: auto;
+  height: 150px;
+  padding: 22px;
+  vertical-align: middle;
+}
+
+.product-con-area h1 {
+  color: #000;
+  font-size: 20px;
+  font-family: Segoe UI;
+  font-weight: 500;
+  text-align: left;
+  margin: 0px;
+
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+
+.product-con-area p {
+  color: #000;
+  font-size: 15px;
+  font-family: Segoe UI;
+  text-align: left;
+  margin: 0px;
+
+  padding-top: 15px;
+}
+
+.product-con-area a {
+  color: #000;
+  font-size: 15px;
+  font-family: Segoe UI;
+  text-align: left;
+  margin: 0px;
+
+  padding-top: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #0067b8;
+  display: block;
+}
+
+.product-con-area a:hover {
+  border-bottom: 1px solid #0067b8;
+  display: inline-block;
+}
+
+/*==========  end ==============*/
+
+.life-batter {
+  min-height: 300px;
+  width: 100%;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+.cont {
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-bottom: 150px;
+  float: left;
+}
+
+.cont h1 {
+  color: #000;
+  font-size: 20px;
+  font-family: Segoe UI;
+  font-weight: 600;
+  margin: 0px;
+  text-transform: capitalize;
+  padding-bottom: 8px;
+}
+
+.cont p {
+  color: #000;
+  font-size: 15px;
+  font-family: Segoe UI;
+  margin: 0px;
+  text-transform: capitalize;
+  padding-bottom: 8px;
+}
+
+.cont button {
+  border: none;
+  padding: 8px 20px;
+  background: #000;
+  text-align: center;
+  margin: 0px;
+}
+
+.cont button a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: Segoe UI;
+}
+
+.cont button a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.lifeb-image img {
+  transform: rotate(13deg);
+  float: right;
+  vertical-align: middle;
+  padding-right: 40px;
+  padding-top: 67px;
+  width: 495px;
+  margin-right: -70px;
+}
+
+/*==========  ends =======*/
+
+.product-con-area2 {
+  overflow: hidden;
+}
+
+.products-image {
+  position: relative;
+  max-height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.products-image img {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+  vertical-align: middle;
+  border-bottom: 2px solid steelblue;
+  transition: 0.5s all;
+}
+
+.products-image img:hover {
+  transform: scale(1.2);
+  transition: 0.5s all;
+}
+
+.product-con-area2 h1 {
+  padding-top: 30px;
+  color: #000;
+  font-size: 20px;
+  font-family: Segoe UI;
+  font-weight: 700;
+  text-align: left;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.product-con-area2 p {
+  color: #000;
+  font-size: 15px;
+  font-family: Segoe UI;
+  text-align: left;
+  margin: 0px;
+}
+
+.product-con-area2 a {
+  color: #000;
+  font-size: 15px;
+  font-family: Segoe UI;
+  text-align: left;
+  margin: 0px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #0067b8;
+  display: block;
+}
+
+.product-con-area2 a:hover {
+  color: #000;
+}
+
+/*=================================================================*/
+.covid-con {
+  text-align: center;
+  background: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.covid-con h1 {
+  color: #fff;
+  font-size: 36px;
+  font-family: Segoe UI;
+  font-weight: 600;
+}
+
+.covid-con p {
+  color: #fff;
+  font-size: 15px;
+  font-family: Segoe UI;
+}
+
+.covid-con a {
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: Segoe UI;
+}
+
+.covid-con a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/*=========== slider area 22222 css ========*/
+
+.slider-item2 {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background: red;
+}
+
+.slider-images2 {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.slider-images2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.slider-text-2 {
+  position: absolute !important;
+  width: 400px;
+  top: 27%;
+  right: 4%;
+  z-index: 9;
+  transition: 0.5s all;
+}
+
+.slider-text-2 h1 {
+  color: #fff;
+  font-size: 26px;
+  font-family: Segoe UI;
+  font-weight: 700;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.slider-text-2 p {
+  color: #fff;
+  font-size: 15px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  float: right;
+  text-align: right;
+  text-align: left;
+  text-transform: capitalize;
+  padding-top: 3px;
+}
+
+.slider-text-2 button {
+  border: none;
+  padding: 8px 25px;
+  background: #000;
+}
+
+.slider-text-2 button a {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Segoe UI;
+  font-weight: 400;
+}
+
+.slider-text-2 button a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+#slider {
+  position: relative;
+}
+
+#slider .main-slider2 .owl-dots {
+  position: absolute;
+  top: 90%;
+  right: 45%;
+  transform: translate(-50%, -50%);
+}
+
+/*===================  slider 2 css area end ===========*/
+.follow {
+  list-style: none;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.follow h4 {
+  color: #000;
+  font-size: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: Segoe UI;
+}
+
+.follow ul {
+}
+
+.follow {
+}
+
+.follow a {
+  padding: 0px 10px;
+}
+
+.follow a span {
+  font-size: 30px;
+}
+
+/*===========  index page css is ended here =======*/
+/*===========  index page css is ended here =======*/
+/*===========  index page css is ended here =======*/
+/*===========  index page css is ended here =======*/
+
+/*********************************************/
+/*********************************************/
+
+/*===== microsoft 360 page css start ====*/
+.banner360 {
+  position: relative;
+  background: #a55d5d;
+  height: 500px;
+  width: 100%;
+}
+
+.banner360 img {
+  /*    position: relative;*/
+  height: 500px;
+  width: 100%;
+}
+
+.banner-text360 {
+  position: absolute;
+  top: 25%;
+  left: 36%;
+}
+
+.banner-text360 h1 {
+  color: #fff;
+  font-size: 46px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: Segoe UI;
+  font-weight: 700;
+}
+
+.banner-text360 p {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: Segoe UI;
+  font-weight: 600;
+}
+
+.banner-button {
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  right: 10%;
+}
+
+.banner-button button {
+  border: 1px solid #fff;
+  margin-right: 12px;
+  background: rgba(21, 153, 250, 0.92);
+  padding: 5px 25px;
+}
+
+.banner-button button a {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 25px;
+  font-weight: 400;
+}
+
+.banner-button button:hover {
+  background: rgba(0, 130, 226, 0.92);
+}
+
+.signb {
+  position: absolute;
+  top: 170%;
+  left: 35%;
+  color: #fff;
+}
+
+.signb a {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+/*====banner part css end ======================================================*/
+.cloud-service {
+}
+
+.cloud-service h1 {
+  color: #000;
+  font-size: 30px;
+  text-align: canter;
+  text-align: justify;
+  padding: 90px 180px;
+  text-transform: capitalize;
+  font-family: Segoe UI, SegoeUI;
+  font-weight: 700;
+}
+
+/*  end cloud area css =====*/
+.about-microsoft-area {
+  background: #f2f2f2;
+  padding: 100px 0px;
+}
+
+.about-microsoft-area h4 {
+  color: #000;
+  font-size: 30px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  margin: 0px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.about-microsoft {
+  text-align: center;
+  padding: 15px;
+}
+
+.about-microsoft a span {
+  font-size: 30px;
+}
+
+.about-microsoft a {
+  color: 0x11c7de;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: Segoe UI;
+  text-decoration: none;
+}
+
+.about-microsoft a:hover {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  margin: 0px;
+}
+
+.about-microsoft h4 {
+  color: #000;
+  font-size: 16px;
+  font-family: Segoe ui;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*==============microsoft 365 area css ended here=========*/
+/*==============microsoft 365 area css ended here=========*/
+/*==============microsoft 365 area css ended here=========*/
+
+.office-plan {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.office-plan h1 {
+  color: #000;
+  font-size: 50px;
+  font-family: Segoe UI;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 5px;
+}
+
+.office-plan h5 {
+  color: #000;
+  font-size: 24px;
+  font-family: Segoe UI;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px;
+  padding-top: 15px;
+}
+
+.Ourplan-button {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.Ourplan-button button {
+  border: 1px solid #fff;
+  margin-right: 12px;
+  background: rgba(21, 153, 250, 0.92);
+  padding: 5px 25px;
+}
+
+.Ourplan-button button a {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 25px;
+  font-weight: 400;
+}
+
+.Ourplan-button button:hover {
+  background: rgba(0, 130, 226, 0.92);
+}
+
+.ourplan {
+}
+
+.ourplan h1 {
+  color: #000;
+  font-size: 34px;
+  font-family: Segoe UI;
+  font-weight: 500;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 5px;
+}
+
+.ourplan a {
+}
+
+.ourplan a {
+  color: #2bb9f8;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.ourplan a:hover {
+  border-bottom: 1px solid #000;
+  margin: 0px;
+}
+
+.office-plan img {
+  height: 100px;
+  width: 150px;
+
+  margin-right: 20px;
+}
+
+/*accordion css start =====*/
+.card-header h5 a {
+  color: #000;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin: 0px;
+  text-transform: math-auto;
+  text-transform: none;
+  text-decoration: none;
+  display: block;
+  padding: 4px 0p;
+  border: none;
+  margin-left: 5px;
+}
+
+.card-header:hover {
+  box-shadow: 1px 1px 5px 2px #adabab;
+  border: none;
+}
+
+.card-header {
+  border: none;
+  padding: 8px 0px;
+}
+
+/* ========== windows page css start here =========*/
+/* ========== windows page css start here =========*/
+/* ========== windows page css start here =========*/
+.windows-banner-area {
+  position: relative;
+}
+
+.windows-banner {
+  height-max: 700px;
+  width: 100%;
+  margin: 0px;
+}
+
+.windows-banner img {
+  height: 70vh;
+  width: 100%;
+}
+
+.win11 {
+  background: #fff;
+  text-align: center;
+  text-align: cneter;
+  padding: 50px 0px;
+}
+
+.win11 h3 {
+  color: #000;
+  font-size: 34px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.win11 p {
+  color: #000;
+  font-size: 16px;
+  text-transform: inherit;
+  margin: 0px;
+  padding-bottom: 8px;
+}
+
+.win11 a {
+  color: #0067b8;
+  text-transform: capitalize;
+  margin: 0px;
+  padding-top: 10px;
+  font-family: Segoe UI;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.win-detels {
+  background: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.win-detels img {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.win-detels a {
+  color: #0067b8;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: Segoe UI;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  margin: 0px;
+}
+
+.win-detels a:focus {
+  border-bottom: 2px solid #000;
+  display: inline-block;
+}
+
+.border1 {
+  border: 1px solid #000;
+  padding: 40px;
+}
+
+.win-im {
+  background: red;
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+}
+
+.win-im img {
+  height: 100%;
+  width: 100%;
+}
+
+.win111 h3 {
+  color: #000;
+  font-size: 34px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  margin: 0px;
+  padding-bottom: 10px;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.win111 p {
+  color: #000;
+  font-size: 16px;
+  text-transform: inherit;
+  margin: 0px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+.win111 a {
+  color: #0067b8;
+  text-transform: capitalize;
+  margin: 0px;
+  padding-top: 10px;
+  font-family: Segoe UI;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+}
+
+.win-one-im {
+  background: red;
+  height: 400px;
+  width: 100%;
+  margin: 0px;
+}
+
+.win-one-im img {
+  background: red;
+  height: 400px;
+  width: 100%;
+  margin: 0px;
+}
+.win-one-text{
+  
+  padding: 100px 8px;
+}
+.win-one-text h3 {
+  color: #000;
+  font-size: 30px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  margin: 0px;
+  text-align: left;
+  padding-bottom: 10px ;
+  
+}
+
+.win-one-text p {
+  color: #000;
+  font-size: 16px;
+  text-transform: inherit;
+  margin: 0px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+.win-one-text a {
+  color: #0067b8;
+  margin: 0px;
+  padding-top: 10px;
+  font-family: Segoe UI;
+  text-align: left;
+}
+
+.our-apps {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  background: red;
+}
+
+.our-apps img {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  padding: 50px 15px 50px 15px;
+  top: 100px;
+  left: 100px;
+}
+
+.apps-text {
+  background: red;
+  text-align: center;
+  width: 300px;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  padding: 45px 12px 45px 12px;
+  left: 70px;
+  top: 70px;
+  background: #fff;
+  width: 300px;
+  box-shadow: 5px 2px 8px 2px #000;
+}
+
+.text h3 {
+  color: #000;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 34px;
+  font-family: Segoe UI;
+  text-align: center;
+}
+
+.text p {
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+
+.text a {
+  color: #0067b8;
+  font-size: 16px;
+  text-align: justify;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+.win-part-le {
+  height: 400px;
+  width: 100%;
+}
+
+.win-part-le img {
+  height: 100%;
+  width: 100%;
+}
+
+.win-part-ri {
+  height: 400px;
+  width: 100%;
+}
+
+.win-part-ri img {
+  height: 100%;
+  width: 100%;
+}
+.windows-video-part {
+  position: relative;
+}
+.win-part-content{
+
+  padding: 15px 0px;
+}
+.windows-11-text {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 600px;
+  text-align: center;
+}
+.windows-11-text,
+.explore-text h1 {
+  color: rgb(10, 9, 9);
+  font-size: 45px;
+  text-transform: capitalize;
+  font-family: Segoe UI;
+  font-weight: 700;
+  margin: 0px;
+  padding-bottom: 30px;
+  
+}
+.windows-11-text,
+.explore-text p {
+  color: rgb(5, 5, 5);
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: Segoe UI;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+.windows-11-text button {
+  border: none;
+  padding: 8px 20px;
+  background: #49b6e6;
+  display: inline-block;
+}
+.windows-11-text,
+.explore-text button a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 25px;
+  font-weight: 400;
+}
+.perpective-image-part {
+}
+.perpective-image-part img {
+  width: 100%;
+  height: 535px;
+}
+.game-image {
+}
+.game-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+.windows-11-text2 {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 500px;
+  text-align: left;
+}
+.windows-11-text2 h1 {
+  color: #000;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: Segoe UI;
+  font-weight: 700;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+.windows-11-text2 p {
+  color: #000;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: Segoe UI;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+.windows-11-text2 button {
+  border: none;
+  padding: 8px 20px;
+  background: #49b6e6;
+  display: block;
+  margin-bottom: 8px;
+}
+.windows-11-text2 button a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 25px;
+  font-weight: 400;
+}
+.explore-area {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+.explore-area img {
+  height: 500px;
+  width: 100%;
+}
+.explore-text {
+  position: absolute;
+  width: 400px;
+  top: 30%;
+  left: 5%;
+}
+
+.explore-text button {
+  border: none;
+  padding: 8px 20px;
+  background: #49b6e6;
+  display: inline-block;
+}
+.explore-text button a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 25px;
+  font-weight: 400;
+}
+.backg {
+  background: #312f2f;
+}
+.last-content {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.last-content p {
+  color: #fff;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin: 0px;
+}
+.last-content p a {
+  color: #7acff5;
+}
+/*====support page  CSS START ============*/
+.support-banner {
+  background-image: url("../images/surface\ bg.png");
+  background-position: center center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.support-banner-content {
+  text-align: center;
+}
+.support-banner-content h1 {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  color: #fff;
+  font-size: 37px;
+  margin: 0px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.support-banner-content input {
+  width: 70%;
+  padding: 10px 10px;
+  margin-bottom: 100px;
+}
+.support-banner-content form span i {
+  width: 70%;
+  padding: 10px 10px;
+  margin-bottom: 100px;
+  background: #fff;
+  font-size: 40px;
+}
+.product-adviser {
+  text-align: center;
+  padding: 20px 0px;
+}
+.product-adviser:hover {
+  box-shadow: 0px 3px 5px 1px #bbb;
+}
+.sup-pro a {
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #000;
+  font-family: Segoe UI;
+  font-weight: 500;
+  color: #0067b8;
+  margin-top: 50px;
+}
+.product-adviser img {
+  height: 52px;
+  width: 52px;
+}
+/* product adviser part close ====== */
+.tr-link ul {
+  float: left;
+}
+.tr-link ul li a {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 0px;
+  color: #0067b8;
+  float: left;
+  font-family: Segoe UI;
+}
+.tr-link ul li a:hover {
+  border-bottom: 1px solid #000;
+  margin-bottom: 0px;
+  display: block;
+}
+/* link part end  */
+.winbg {
+  background: rgb(238, 237, 237);
+}
+.win-part {
+  width: 100%;
+}
+.win-part img {
+  width: 100%;
+  height: 100%;
+}
+
+.win-part-con {
+  padding: 95px 0px;
+  left: 100px;
+}
+.win-part-con h1 {
+  color: #000;
+  font-size: 24px;
+  margin: 0 px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding-bottom: 20 px;
+}
+.win-part-con p {
+  color: #000;
+  font-size: 16px;
+  margin: 0px;
+  text-transform: capitalize;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.win-part-con a {
+  color: #0067b8;
+  font-size: 16px;
+  margin: 0px;
+  text-transform: capitalize;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+/* win part end  */
+.lerning img {
+  height: 100%;
+  width: 100%;
+}
+.lerning-content h4 {
+  color: #000;
+  font-size: 18px;
+  margin: 0 px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding-bottom: 20 px;
+}
+.lerning-content p {
+  color: #000;
+  font-size: 16px;
+  margin: 0px;
+  text-transform: capitalize;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.lerning-content a {
+  color: #0a8bee;
+  font-size: 16px;
+  margin: 0px;
+  text-transform: capitalize;
+  font-weight: 300;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+/* contact page css area start =========== */
+
+.conbg {
+  background: rgba(180, 138, 222, 0.3);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.contact-area {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  margin-top: 200px;
+  padding: 50px;
+  padding-bottom: 50px;
+}
+.contact-area img {
+  display: block;
+  height: 30px;
+  width: 200px;
+}
+.contact-area h3 {
+  color: #000;
+  font-size: 24px;
+  margin: 0px;
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+.contact-area input {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border: 0;
+  border-bottom: 1px solid #000;
+}
+.contact-area button {
+  border: none;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  background: rgb(2, 140, 232);
+  color: #fff;
+  font-size: 16px;
+  float: right;
+}
+.contact-area a {
+  color: rgb(14, 160, 238);
+  font-size: 16px;
+}
+.last-clas {
+  background: green;
+  margin-top: 20px;
+}
+.last-clas button {
+  border: none;
+  padding: 10px 30px;
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  text-align: left;
+}
+.last-clas button i {
+  margin-right: 20px;
+}
+.last-clas button a {
+  text-align: left;
+}
+.c-btn {
+  position: absolute;
+  background: #fff;
+  top: 10px;
+  right: 20px;
+  padding: 3px;
+}
+/*===============    FOOTER AREA CSS START ==============*/
+/*===============    FOOTER AREA CSS START ==============*/
+/*===============    FOOTER AREA CSS START ==============*/
+/*===============    FOOTER AREA CSS START ==============*/
+
+/* social area css start */
+
+.social-area {
+  margin: 0 auto;
+}
+
+.icon-rel {
+  background: red;
+}
+
+.icon-rel p {
+  margin: 0 auto;
+  font-size: 20px;
+  color: black;
+
+  padding-left: 0px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: Segoe UI;
+}
+
+/*footer area start =====================================*/
+#footer {
+  background: #f2f2f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-content-area {
+}
+
+.footer-content-area ul{
+  list-style: none;
+}
+.footer-content-area ul li{
+  list-style: none;
+}
+.footer-content-area ul li a{
+  color: #616161;
+  font-size: 12px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: block;
+  left: 0;
+  margin-left: -30px;
+  padding: 5px 0px;
+  transition: 0.4s all;
+}
+.footer-content-area ul li a:hover{
+  border-bottom: 1px solid #000;
+  /* overflow: hidden; */
+  display: inline-block ;
+  color: #000;
+  transition: 0.4s all;
+}
+.copyright {
+  background: #f2f2f2;
+  padding-bottom: 5px;
+}
+
+.copyright p {
+  color: #616161;
+  font-size: 16px;
+  font-family: Segoe Ui;
+  font-weight: 400;
+  text-transform: capitalize;
+  /*    text-decoration: none;*/
+  text-align: center;
+}
+/*========================*/
+/*========================*/
+.contt {
+  background: red;
+}
